@@ -1,0 +1,100 @@
+body {
+    background-color: #013F8C; /* El color que deseas, en este caso un gris claro */
+}
+
+p {
+    color: #EDB700;  /* Color del texto, en este caso un gris oscuro */
+    font-size: 30px;  /* Tamaño de la letra */
+}
+
+b {
+    font-family: 'Helvetica Bold', sans-serif;
+    font-weight: bold;
+    font-size: 50px; 
+}
+
+.fcb {
+    background-color: #EDB700;
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.Cruz {
+    background-color: #EE0730;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+    align-content: space-between;
+
+}
+
+.white_cubes {
+    background-color: #FFFFFF;
+    width: 70px;
+    height: 70px;
+}
+
+.Cataluna_flag{
+    background-color: #FFD301;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.stripes{
+    background-color: #EF072E;
+    width: 20px;
+    height: 200px;
+}
+
+.Blau {
+    background-color: #001F99;
+    width: 60px;
+    height: 200px;
+
+}
+
+
+.Grana {
+    background-color: #9F1F47;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0% 0% 100% 100% / 0% 0% 100% 100% ;
+    overflow: hidden;
+}
+
+
+.Ball{
+    background-color: #EDB700;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+
+.upper {
+    background-color: #EDB700;
+    width: 500px;
+    height: 250px;
+    display: flex; 
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.lower {
+    background-color: #EDB700;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;      
+    flex-direction: column;   
+}
