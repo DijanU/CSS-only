@@ -1,7 +1,8 @@
 body {
     background-color: #013F8C; /* El color que deseas, en este caso un gris claro */
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 p {
@@ -79,6 +80,10 @@ b {
     width: 100px;
     height: 100px;
     border-radius: 100%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
 }
 
 
@@ -89,14 +94,76 @@ b {
     display: flex; 
     justify-content: center;
     align-items: flex-end;
+    position: relative;
 }
 
 .lower {
     background-color: #EDB700;
-    width: 500px;
-    height: 250px;
+    width: 440px;
+    height: 215px;
     display: flex;
     justify-content: flex-start; 
     align-items: center;      
     flex-direction: column;   
+    position: relative;
+    border-radius: 0% 0% 100% 100% / 0% 0% 100% 100% ;
+}
+ .centrador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .top_circle {
+    background-color: #EDB700;
+    width: 200px;
+    height: 90px;
+    border-radius: 100% 100% 100% 100% / 0% 0% 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+ }
+
+ .corner_circle{
+    background-color: #EDB700;
+    width: 200px;
+    height: 120px;
+    border-radius: 64% 56% 100% 77% / 28% 62% 100% 100%;
+    position: absolute;
+    top: -30px;
+    right: -25px; 
+}
+.lcorner_circle{
+    background-color: #EDB700;
+    width: 200px;
+    height: 120px;
+    border-radius: 64% 56% 100% 77% / 28% 62% 100% 100%;
+    position: absolute;
+    top: -30px;
+    right: 325px; 
+    transform: scalex(-1)
+}
+
+
+
+.r_circle{
+    background-color: #EDB700;
+    width: 75px;
+    height: 250px;
+    border-radius: 100% 0% 0% 100% / 100% 0% 0% 100% ;
+    position: absolute;
+    top: 25px;
+    right: -15px; 
+}
+
+.l_circle{
+    background-color: #EDB700;
+    width: 75px;
+    height: 250px;
+    border-radius: 100% 0% 0% 100% / 100% 0% 0% 100% ;
+    position: absolute;
+    top: 25px;
+    right: 435px; 
+    transform: scalex(-1)
 }
