@@ -89,7 +89,7 @@ b {
 
 .upper {
     background-color: #EDB700;
-    width: 500px;
+    width: 495px;
     height: 250px;
     display: flex; 
     justify-content: center;
@@ -166,4 +166,94 @@ b {
     top: 25px;
     right: 435px; 
     transform: scalex(-1)
+}
+
+.btop_circle {
+    background-color: #013F8C;
+    width: 200px;
+    height: 90px;
+    border-radius: 100% 100% 100% 100% / 0% 0% 100% 100%;
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+ }
+
+ .bcorner_circle{
+    background-color: #013F8C;
+    width: 200px;
+    height: 120px;
+    border-radius: 64% 56% 100% 77% / 28% 62% 100% 100%;
+    position: absolute;
+    top: -45px;
+    right: -40px; 
+}
+.blcorner_circle{
+    background-color: #013F8C;
+    width: 200px;
+    height: 120px;
+    border-radius: 64% 56% 100% 77% / 28% 62% 100% 100%;
+    position: absolute;
+    top: -40px;
+    right: 340px; 
+    transform: scalex(-1)
+}
+
+
+
+.br_circle{
+    background-color: #013F8C;
+    width: 75px;
+    height: 260px;
+    border-radius: 100% 0% 0% 100% / 100% 0% 0% 100% ;
+    position: absolute;
+    top: 35px;
+    right: -35px; 
+}
+
+.bl_circle{
+    background-color: #013F8C;
+    width: 75px;
+    height: 260px;
+    border-radius: 100% 0% 0% 100% / 100% 0% 0% 100% ;
+    position: absolute;
+    top: 35px;
+    right: 455px; 
+    transform: scalex(-1)
+}
+
+
+ .ltriangle-top {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0px 100px 173.2px 100px;
+    border-color: transparent transparent #013F8C transparent;
+    position: absolute;
+    top: 149px;
+    right: 455px; 
+}
+.rtriangle-top {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0px 100px 173.2px 100px;
+    border-color: transparent transparent #013F8C transparent;
+    position: absolute;
+    top: 149px;
+    right: -160px;
+}
+
+.triangle-bottom {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  border-width: 40.2px 50px 0px 50px;
+  border-color: #EDB700 transparent transparent transparent;
+  position: absolute;
+  top: 500px;
+  right: 250;
 }
