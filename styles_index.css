@@ -1,0 +1,20 @@
+body {
+    background-color: #013F8C; /* El color que deseas, en este caso un gris claro */
+}
+
+p {
+    color: #EDB700;  /* Color del texto, en este caso un gris oscuro */
+    font-family: 'Annifont', sans-serif;
+    font-size: 20px;  /* Tamaño de la letra */
+}
+
+h1 {
+    color: #EDB700;  /* Color del texto, en este caso un gris oscuro */
+    font-family: 'Annifont', sans-serif;
+}
+
+li {
+    color: #FFFFF9;  /* Color del texto, en este caso un gris oscuro */
+    font-family: 'Annifont', sans-serif; 
+}
+
