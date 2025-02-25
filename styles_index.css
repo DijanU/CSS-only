@@ -5,12 +5,13 @@ body {
 p {
     color: #EDB700;  /* Color del texto, en este caso un gris oscuro */
     font-family: 'Annifont', sans-serif;
-    font-size: 20px;  /* Tamaño de la letra */
+    font-size: 50px;  /* Tamaño de la letra */
 }
 
 h1 {
     color: #EDB700;  /* Color del texto, en este caso un gris oscuro */
     font-family: 'Annifont', sans-serif;
+    font-size: 70px;
 }
 
 li {
@@ -20,6 +21,7 @@ li {
 
 a {
     color: #FFFFF9; /* Cambia el color a rojo */
+    font-size: 20px;
 }
 a:visited {
     color: #9F1F47; /* Color para enlaces visitados */
