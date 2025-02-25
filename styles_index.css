@@ -18,3 +18,16 @@ li {
     font-family: 'Annifont', sans-serif; 
 }
 
+a {
+    color: #FFFFF9; /* Cambia el color a rojo */
+}
+a:visited {
+    color: #9F1F47; /* Color para enlaces visitados */
+}
+a:hover {
+    color: #EDB700; /* Color cuando pasas el mouse */
+}
+a:active {
+    color: #FFFFF9; /* Color cuando haces clic */
+}
+
